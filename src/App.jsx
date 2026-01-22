@@ -1,5 +1,5 @@
 import HeroPage from "./components/HeroPage";
-// import About from "./components/About";
+ import About from "./components/About";
 // import Schedule from "./components/Schedule";
 // import TracksPage from "./components/TracksPage";
 // import Events from "./components/Events";
@@ -12,6 +12,7 @@ function App() {
   return (
     <>
       <HeroPage />
+      <About />
       {/* <About />
       <Schedule />
       <TracksPage />
