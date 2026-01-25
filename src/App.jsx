@@ -18,11 +18,11 @@ function App() {
       <About />
       <FAQ />
       <Schedule />
-//       <TracksPage />
-//       <Events />
-//       <Judges />
-//       <Sponsors />
-//       <Footer />
+      {/* <TracksPage />
+      <Events />
+      <Judges />
+      <Sponsors />
+      <Footer /> */}
     </>
   );
 }
