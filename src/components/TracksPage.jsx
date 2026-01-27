@@ -111,7 +111,7 @@ const TracksPage = () => {
         </div>
       </div>
 
-      {/* glowy effect */}
+      {/* glowy */}
       <div className="absolute top-1/4 left-1/4 w-72 h-72 bg-fuchsia-600/10 rounded-full blur-[130px]" />
       <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-purple-900/10 rounded-full blur-[160px]" />
     </section>
