@@ -1,6 +1,6 @@
 import HeroPage from "./components/HeroPage";
 import FAQ from "./components/FAQ";
-
+import TracksPage from "./components/TracksPage";
 import About from "./components/About";
 import Schedule from "./components/Schedule";
 // import TracksPage from "./components/TracksPage";
@@ -15,11 +15,11 @@ function App() {
     <>
       <HeroPage />
       <About />
-      <FAQ />
       <Schedule />
-      {/* <TracksPage /> */}
+      <TracksPage />
       <Events />
-      {/* <Judges />
+      <FAQ />
+    {/* <Judges />
       <Sponsors />
       <Footer /> */}
     </>
