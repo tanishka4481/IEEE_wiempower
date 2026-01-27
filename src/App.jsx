@@ -3,9 +3,8 @@ import FAQ from "./components/FAQ";
 
 import About from "./components/About";
 import Schedule from "./components/Schedule";
-
 // import TracksPage from "./components/TracksPage";
-// import Events from "./components/Events";
+import Events from "./components/Events";
 // import Judges from "./components/Judges";
 // import Sponsors from "./components/Sponsors";
 // import FAQ from "./components/FAQ";
@@ -18,9 +17,9 @@ function App() {
       <About />
       <FAQ />
       <Schedule />
-      {/* <TracksPage />
+      {/* <TracksPage /> */}
       <Events />
-      <Judges />
+      {/* <Judges />
       <Sponsors />
       <Footer /> */}
     </>
