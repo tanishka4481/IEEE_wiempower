@@ -1,29 +1,28 @@
 import HeroPage from "./components/HeroPage";
- import About from "./components/About";
- import Judges from "./components/Judges";
-// import Schedule from "./components/Schedule";
-// import TracksPage from "./components/TracksPage";
-// import Events from "./components/Events";
+import FAQ from "./components/FAQ";
+import TracksPage from "./components/TracksPage";
+import About from "./components/About";
+import Schedule from "./components/Schedule";
+import Navbar from "./components/Navbar";
+import Events from "./components/Events";
+import Judges from "./components/Judges";
 
 // import Sponsors from "./components/Sponsors";
-// import FAQ from "./components/FAQ";
-// import Footer from "./components/Footer";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
+      <Navbar />
       <HeroPage />
       <About />
-         <Judges />
-      {
-      /* <About />
       <Schedule />
       <TracksPage />
       <Events />
-   
-      <Sponsors />
+      <Judges />
       <FAQ />
-      <Footer /> */}
+      <Footer />
+      {/*<Sponsors />*/}
     </>
   );
 }
