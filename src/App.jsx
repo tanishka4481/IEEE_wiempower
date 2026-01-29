@@ -21,7 +21,8 @@ function App() {
       <FAQ />
       <Footer />
     </>
+
+
   );
 }
-
 export default App;
