@@ -3,8 +3,8 @@ import FuzzyText from './FuzzyText.jsx';
 import DotGrid from "./DotGrid.jsx";
 import bgImage from "../assets/bg.png";
 
+const words = ["discover", "develop", "deliver"];
 const HomePage = () => {
-    const words = ["discover", "develop", "deliver"];
     const [displayedWord, setDisplayedWord] = useState('');
     const [currentIndex, setCurrentIndex] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
