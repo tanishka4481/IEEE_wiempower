@@ -2,46 +2,32 @@ import React from "react";
 
 const schedule = [
   {
-    date: "17th January 2025 – 26th January 2025 · 6:00 PM",
+    date: "6th February 2026",
     title: "Registration Opens [Online]",
-    desc: "Begin your journey by registering your team through our online portal. Ensure all team details and areas of interest are properly documented. Join Discord for all official announcements of our hackathon.",
+    desc: "Team registrations begin. Register your team through the official portal and join Discord to stay updated with announcements, rules, and mentor interactions.",
   },
   {
-    date: "24th January 2025",
-    title: "Ideation Phase Begins [Online]",
-    desc: "This phase marks the official start of your brainstorming process. Team members should work together to ideate and plan their project. Reach out to mentors for guidance.",
+    date: "14th – 16th February 2026",
+    title: "Ideation Period [Online]",
+    desc: "Teams brainstorm, research, and finalize their problem statement and solution approach. Mentors will be available to guide teams during this phase.",
   },
   {
-    date: "26th January 2025 · 12:00 PM",
-    title: "Ideation Phase End [Online]",
-    desc: "Complete your ideas and submit your finalized project concept. Mentors will review your submission and provide feedback.",
+    date: "16th February 2026 (EOD) – 18th February 2025 (EOD)",
+    title: "Development Period [Online]",
+    desc: "Teams start building their solution. Focus on implementation, testing, and preparing a working prototype along with a presentation.",
   },
   {
-    date: "27th January 2025 · 12:00 PM",
-    title: "Development Phase & Mentorship [Online]",
-    desc: "The development phase begins. Teams will start implementing their ideas, with mentorship available throughout the process.",
+    date: "19th February 2026 (EOD)",
+    title: "Finalists Announcement [Online]",
+    desc: "Top teams will be shortlisted based on their submissions. Finalists will be announced through official communication channels.",
   },
   {
-    date: "31st January 2025 · 11:59 PM",
-    title: "Development Phase Ends [Online]",
-    desc: "The development phase ends. Top teams will be announced soon on Discord.",
-  },
-  {
-    date: "1st February 2025",
-    title: "Presentations & Screening [Online]",
-    desc: "All selected teams must present their PPT along with a prototype via an online presentation to the mentors.",
-  },
-  {
-    date: "2nd February 2025",
-    title: "Shortlisted Teams Announced [Online]",
-    desc: "The best teams will be shortlisted and receive further instructions for the final round.",
-  },
-  {
-    date: "3rd February 2025",
-    title: "Final Presentations & Results [Offline]",
-    desc: "Shortlisted teams must appear at the IGDTUW campus to present before judges. Final results will be announced the same day.\n\nVenue: Auditorium, IGDTUW\nAddress: Madras Road, Opposite St. James Church, Kashmere Gate, Delhi-110006",
+    date: "20th February 2026",
+    title: "Final Presentation [Offline]",
+    desc: "Shortlisted teams will present their final solution and prototype before the judges at the IGDTUW campus. Results will be declared after the presentations.",
   },
 ];
+
 
 const Schedule = () => {
   return (
